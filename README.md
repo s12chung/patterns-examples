@@ -1,0 +1,1 @@
+A small static Rails app showcasing the [patterns gem](https://github.com/s12chung/patterns).
