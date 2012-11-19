@@ -6,7 +6,9 @@ gem 'thin'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-
+group :production do
+  gem 'newrelic_rpm', '3.4.1'
+end
 
 # Gems used only for assets and not required
 # in production environments by default.
